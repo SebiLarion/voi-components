@@ -15,7 +15,7 @@
     "build:style": "postcss src/styles/tailwind.css -o src/index.css",
     "prebuild": "npm run build:style",
     "prestart": "npm run build:style",
-    "build": "NODE_ENV=production microbundle-crl --no-compress --css-modules false --format modern,cjs",
+    "build": "microbundle-crl --no-compress --css-modules false --format modern,cjs",
     "start": "microbundle-crl watch --css-modules false --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
@@ -24,13 +24,21 @@
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "peerDependencies": {
     "react": "^16.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
     "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.2.2",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.7.0",
