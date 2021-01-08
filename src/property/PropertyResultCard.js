@@ -4,38 +4,37 @@ import sleeps from "../img/sleeps.png"
 
 export default function PropertyResultCard({ property }) {
   return (
-    <div className="md:flex absolute w-auto h-96">
-      <img src={property.images[0].asset.fluid.src} alt="can arboles"className="w-auto"/>
-      <div className="details px-6 py-4">
-        <h1 className="font-brandon gray text-xl uppercase tracking-widest font-normal mt-4 mb-1">{property.uniqueName}</h1>
-        <h4 className="font-libre-baskerville text-sm red">{property.location.name}</h4>
-        <div className="flex py-4">
-          <div className="py-3 pr-3 grid justify-items-center">
-            <img src={bedrooms} alt="bedrooms" className="w-9 h-7"/>
+    <div className="md:flex absolute">
+      <img src={property.images[0].asset.fluid.src} alt="can arboles"className="picture"/>
+      <div className="details">
+        <h1 className="font-brandon gray text-base uppercase tracking-widest font-normal pt-4 ml-5 mr-12">{property.uniqueName}</h1>
+        <h4 className="font-libre-baskerville text-xs red ml-5">{property.location.name}</h4>
+        <div className="flex ml-5 mt-1">
+          <div className="grid justify-items-center mr-3.5">
+            <img src={bedrooms} alt="bedrooms" className=""/>
             <h4 className="red text-xs p-2 leading-3">{property.bedrooms}</h4>
           </div>
-          <div className="p-3 grid justify-items-center">
-            <img src={sleeps} alt="sleeps" className="w-7 h-6"/>
+          <div className="grid justify-items-center mr-3.5">
+            <img src={sleeps} alt="sleeps" className=""/>
             <h4 className="red text-xs p-2 leading-3">{property.sleeps}</h4>
           </div>
-          <div className="p-3 grid justify-items-center">
-            <img src={bedrooms} alt="bedrooms" className="w-9 h-7"/>
+          <div className="grid justify-items-center mr-3.5">
+            <img src={bedrooms} alt="bedrooms" className=""/>
             <h4 className="red text-xs py-2 leading-3">{property.buildSize}m2</h4>
           </div>
-          <div className="p-3 grid justify-items-center">
-            <img src={sleeps} alt="sleeps" className="w-7 h-6"/>
+          <div className="grid justify-items-center mr-5">
+            <img src={sleeps} alt="sleeps" className=""/>
             <h4 className="red text-xs py-2 leading-3">{property.plotSize}m2</h4>
           </div>
         </div>
-
-        <div className="flex mt-10">
-          <h1 className="gray text-lg leading-5 pr-2 tracking-widest font-brandon">Price</h1>
-          <p className="gray leading-5 font-brandon text-xl font-semibold	tracking-widest uppercase">{property.listPrice.toLocaleString()}&euro;</p>
+        <div className="flex mt-8 ml-5">
+          <h1 className="gray text-sm leading-5 pr-2 tracking-wider font-brandon">Price</h1>
+          <p className="gray leading-5 font-brandon text-sm font-semibold	tracking-wider uppercase">{property.listPrice.toLocaleString()}&euro;</p>
         </div>
         <div>
-          <p className="red text-sm leading-3 pt-2 font-brandon font-thin opacity-90">Villa & Land</p>
+          <p className="red text-xs leading-4 font-brandon ml-5">Villa & Land</p>
         </div>
-        <button className="font-Opensans mt-8 px-12 tracking-widest py-3 uppercase gray text-xs border-solid border-2 border-gray-500">
+        <button className="button font-Opensans mt-2 ml-5 pt-2.5 pb-2 w-28 uppercase gray border-solid border border-gray-500">
             Read More
         </button>
       </div>

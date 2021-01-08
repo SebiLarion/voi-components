@@ -23,6 +23,7 @@
 
     .details {
         background: rgba(246, 239, 236, 1);
+        height: 225px;
 
     }
 
@@ -33,6 +34,17 @@
 
     .red {
         color: rgba(189, 127, 128, 1);
+    }
+
+    .picture {
+        width: 360px;
+        height: 225px;
+    }
+
+    .button {
+        font-size: 7px;
+        line-height: 10px;
+        letter-spacing: 0.25em;
     }
    
 }
