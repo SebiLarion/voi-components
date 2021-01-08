@@ -11,19 +11,19 @@ export default function PropertyResultCard({ property }) {
         <h4 className="font-libre-baskerville text-xs red ml-5">{property.location.name}</h4>
         <div className="flex ml-5 mt-1">
           <div className="grid justify-items-center mr-3.5">
-            <img src={bedrooms} alt="bedrooms" className=""/>
+            <img src={bedrooms} alt="bedrooms"/>
             <h4 className="red text-xs p-2 leading-3">{property.bedrooms}</h4>
           </div>
           <div className="grid justify-items-center mr-3.5">
-            <img src={sleeps} alt="sleeps" className=""/>
+            <img src={sleeps} alt="sleeps"/>
             <h4 className="red text-xs p-2 leading-3">{property.sleeps}</h4>
           </div>
           <div className="grid justify-items-center mr-3.5">
-            <img src={bedrooms} alt="bedrooms" className=""/>
+            <img src={bedrooms} alt="bedrooms"/>
             <h4 className="red text-xs py-2 leading-3">{property.buildSize}m2</h4>
           </div>
           <div className="grid justify-items-center mr-5">
-            <img src={sleeps} alt="sleeps" className=""/>
+            <img src={sleeps} alt="sleeps"/>
             <h4 className="red text-xs py-2 leading-3">{property.plotSize}m2</h4>
           </div>
         </div>
