@@ -3,10 +3,9 @@ import React from "react";
 import collectionImage from "../img/collectionImage.png"
 
 
-
 export default function CollectionCard() {
   return (
-      <div className="collection pt-8"> 
+      <div className="collection bg-soft-pink pt-8"> 
              <h1 className="w-64 h-6 text-center mx-auto font-libre-baskerville text-base text-black">Country Homes</h1>
              <p className="mt-7 fontJosefin mx-8 pb-3 text-sm text-black text-center">
              Ibiza’s climate and the stunning countryside offer a complete escape from city life which is an increasingly inviting 

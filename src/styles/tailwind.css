@@ -1,39 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-
-
-@layer base {
-    
-    @font-face {
-        font-family: 'Brandon Grotesque';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Brandon Grotesque'), url('./fonts/Brandon Grotesque.otf') format('otf');
-        }
-
-    
-}
+@layer base {}
 
 @layer components {
 
     .details {
-        background: rgba(246, 239, 236, 1);
         height: 225px;
-    }
-
-    .gray {
-        color: rgba(80, 80, 80, 1);
-
-    }
-
-    .red {
-        color: rgba(189, 127, 128, 1);
     }
 
     .picture {
@@ -50,21 +29,45 @@
     .teamcard {
         width: 300px;
         height: 602px;
-        background-color: rgba(246, 246, 246, 1);
-
     }
 
     .collection {
-        background: rgba(247, 239, 237, 1);
         width: 300px;
         height: 574px;
+    }
+
+    .whitecontent {
+        height: 900px;
+        width: 1444px;
+    }
+
+    .textOwner {
+        width: 448px;
+        height: 351px;
+    }
+
+    .header {
+        width: 1444px;
+        height: 460px;
+    }
+
+    .navigation-bar {
+        width: 1399px; 
+        height: 156px;
+    }
+    
+    .color-block {
+        width: 90.25em;
+        height: 25.938em;
+    }
+
+    .image-block {
+        width: 1444px;
+        height: 550px;
     }
         
 }
 
-.font-brandon {
-    font-family: 'Brandon Grotesque';
-}
 
 .font-libre-baskerville {
     font-family: 'Libre Baskerville', serif;
