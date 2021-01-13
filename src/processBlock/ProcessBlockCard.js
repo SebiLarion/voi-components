@@ -1,14 +1,10 @@
 import React from "react";
 
-export default function ColorTextBlockCard({ bgColor, children }) {
+export default function ProcessBlockCard({ bgColor }) {
   return (
-    <div
-      className={`max-w-screen-2xl w-auto h-auto pl-11 pr-12 relative ${bgColor}`}
-    >
-      <div className="pt-10 pb-11 lg:pt-40 lg:pb-44">
-        <div className="text-white font-libre-baskerville h-auto w-auto text-center text-xs lg:text-2xl lg:mx-72">
-          {children}
-        </div>
+    <div className={`max-w-screen-2xl relative bg-cover bg-center ${bgColor}`}>
+      <div className="mx-52 flex flex-col">
+        <h1 className="text-center text-lg">OUR SELLING PROCESS</h1>
       </div>
       <svg
         className="absolute left-0 fill-current text-white w-1/2 h-96 -mt-52"

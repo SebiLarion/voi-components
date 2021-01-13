@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -574,61 +574,6 @@ video {
   .container{
     max-width: 1536px;
   }
-}
-
-.details {
-  height: 225px;
-}
-
-.picture {
-  width: 360px;
-  height: 225px;
-}
-
-.button {
-  font-size: 7px;
-  line-height: 10px;
-  letter-spacing: 0.25em;
-}
-
-.teamcard {
-  width: 300px;
-  height: 602px;
-}
-
-.collection {
-  width: 300px;
-  height: 574px;
-}
-
-.whitecontent {
-  height: 900px;
-  width: 1444px;
-}
-
-.textOwner {
-  width: 448px;
-  height: 351px;
-}
-
-.header {
-  width: 1444px;
-  height: 460px;
-}
-
-.navigation-bar {
-  width: 1399px;
-  height: 156px;
-}
-
-.color-block {
-  width: 90.25em;
-  height: 25.938em;
-}
-
-.image-block {
-  width: 1444px;
-  height: 550px;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
@@ -30284,15 +30229,15 @@ video {
 }
 
 .font-libre-baskerville {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 .font-Opensans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .fontJosefin {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 @media (min-width: 640px){
