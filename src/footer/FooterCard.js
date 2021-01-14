@@ -7,7 +7,7 @@ export default function FooterCard({ bgColor }) {
     <div
       className={`max-w-screen-2xl w-auto h-auto md:h-72 relative ${bgColor}`}
     >
-      <div className="flex flex-col md:flex-row ml-5 pt-5 ml-20 md:ml-28 md:pt-24">
+      <div className="flex flex-col md:flex-row ml-20 pt-5  md:ml-28 md:pt-24">
         <div className="w-24 h-24 mb-5">
           <img src={logo} alt="logo" />
         </div>

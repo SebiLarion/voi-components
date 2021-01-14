@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SearchBoxCard({ bgColor }) {
   return (
-    <div className={`max-w-screen-xl h-auto ${bgColor}`}>
+    <div className={`w-auto lg:max-w-screen-xl h-auto ${bgColor}`}>
       <div className="mx-auto px-7 py-7 lg:pt-10">
         <form className="flex flex-col lg:flex-row bg-white bg-opacity-50">
           <input
