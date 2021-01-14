@@ -4,20 +4,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'dark-blue': '#2A3D50',
-        'soft-pink': '#F7EFED',
-        'dusty-pink': '#AFA4A7',
-        'dark-gray': '#505050',
-        'white-pink': '#F6F6F6',
-        'dark-red': '#BD7F80',
-        'light-pink': '#F6EFEC',
+        "dark-blue": "#2A3D50",
+        "soft-pink": "#F7EFED",
+        "dusty-pink": "#AFA4A7",
+        "dark-gray": "#505050",
+        "white-pink": "#F6F6F6",
+        "dark-red": "#BD7F80",
+        "light-pink": "#F6EFEC",
+        "light-gray": "#C4C4C4",
       },
 
-      backgroundImage: theme => ({
-        'img-text-block': "url('./img/andrew-ridley.jpg')",
-        'img-block': "url('./img/dong-cheng.jpg')",
-
-      })
+      backgroundImage: (theme) => ({
+        "img-text-block": "url('./img/andrew-ridley.jpg')",
+        "img-block": "url('./img/dong-cheng.jpg')",
+      }),
     },
   },
   variants: {
