@@ -4,10 +4,8 @@ import logo from "../img/final logo-transparent.png";
 
 export default function ProcessBlockCard({ bgColor }) {
   return (
-    <div
-      className={`max-w-screen-2xl h-auto relative bg-cover bg-center ${bgColor}`}
-    >
-      <div className="mx-52 text-white flex flex-col">
+    <div className={`max-w-screen-2xl h-auto relative  ${bgColor}`}>
+      <div className="xl:mx-52 text-white flex flex-col">
         <h3 className="text-center text-lg mt-20 mb-6 fontJosefin">
           OUR SELLING PROCESS
         </h3>
@@ -18,52 +16,52 @@ export default function ProcessBlockCard({ bgColor }) {
         </h1>
         <div className="flex justify-between mb-14">
           <div className="grid justify-items-center">
-            <div className="w-28 mb-4 border border-white px-4 py-2">
+            <div className="w-28 mb-4 border border-white px-4 py-2 font-Opensans tracking-wide inline-block">
               Step One
             </div>
-            <div className="w-6 mb-4 border-l-2 border-white py-6 "></div>
-            <div className="w-48 px-2 leading-10 text-center font-libre-baskerville">
-              <p className="text-base pb-2">Marketing Strategy </p>
-              <p className="text-xs">
+            <div className="w-6 mb-4 border-l-2 border-white py-8 "></div>
+            <div className="w-52 px-2 text-center font-libre-baskerville">
+              <p className="text-base pb-2 leading-10">Marketing Strategy </p>
+              <p className="text-xs leading-5">
                 We build a bespoke marketing strategy that will introduce your
                 home to as many relevant buyers as possible
               </p>
             </div>
           </div>
           <div className="grid justify-items-center">
-            <div className="w-28 mb-4 border border-white px-4 py-2">
+            <div className="w-28 mb-4 border border-white px-4 py-2 font-Opensans tracking-wide inline-block">
               Step One
             </div>
-            <div className="w-6 mb-4 border-l-2 border-white py-6 "></div>
-            <div className="w-48 px-2 leading-10 text-center font-libre-baskerville">
-              <p className="text-base pb-2">Marketing Strategy </p>
-              <p className="text-xs">
+            <div className="w-6 mb-4 border-l-2 border-white py-8 "></div>
+            <div className="w-52 px-2  text-center font-libre-baskerville">
+              <p className="text-base leading-10 pb-2">Marketing Strategy </p>
+              <p className="text-xs leading-5">
                 We build a bespoke marketing strategy that will introduce your
                 home to as many relevant buyers as possible
               </p>
             </div>
           </div>
           <div className="grid justify-items-center">
-            <div className="w-28 mb-4 border border-white px-4 py-2">
+            <div className="w-28 mb-4 border border-white px-4 py-2 font-Opensans tracking-wide inline-block">
               Step One
             </div>
-            <div className="w-6 mb-4 border-l-2 border-white py-6 "></div>
-            <div className="w-48 px-2 leading-10 text-center font-libre-baskerville">
-              <p className="text-base pb-2">Marketing Strategy </p>
-              <p className="text-xs">
+            <div className="w-6 mb-4 border-l-2 border-white py-8 "></div>
+            <div className="w-52 px-2  text-center font-libre-baskerville">
+              <p className="text-base leading-10 pb-2">Marketing Strategy </p>
+              <p className="text-xs leading-5">
                 We build a bespoke marketing strategy that will introduce your
                 home to as many relevant buyers as possible
               </p>
             </div>
           </div>
           <div className="grid justify-items-center">
-            <div className="w-28 mb-4 border border-white px-4 py-2">
+            <div className="w-28 mb-4 border border-white px-4 py-2 font-Opensans tracking-wide inline-block">
               Step One
             </div>
-            <div className="w-6 mb-4 border-l-2 border-white py-6 "></div>
-            <div className="w-48 px-2 leading-10 text-center font-libre-baskerville">
-              <p className="text-base pb-2">Marketing Strategy </p>
-              <p className="text-xs">
+            <div className="w-6 mb-4 border-l-2 border-white py-8 "></div>
+            <div className="w-52 px-2  text-center font-libre-baskerville">
+              <p className="text-base leading-10 pb-2">Marketing Strategy </p>
+              <p className="text-xs leading-5">
                 We build a bespoke marketing strategy that will introduce your
                 home to as many relevant buyers as possible
               </p>
@@ -72,39 +70,39 @@ export default function ProcessBlockCard({ bgColor }) {
         </div>
         <div className="flex justify-between mb-36">
           <div className="grid justify-items-center">
-            <div className="w-28 mb-4 border border-white px-4 py-2">
+            <div className="w-28 mb-4 border border-white px-4 py-2 font-Opensans tracking-wide inline-block">
               Step One
             </div>
-            <div className="w-6 mb-4 border-l-2 border-white py-6 "></div>
-            <div className="w-48 px-2 leading-10 text-center font-libre-baskerville">
-              <p className="text-base pb-2">Marketing Strategy </p>
-              <p className="text-xs">
+            <div className="w-6 mb-4 border-l-2 border-white py-8 "></div>
+            <div className="w-52 px-2  text-center font-libre-baskerville">
+              <p className="text-base leading-10 pb-2">Marketing Strategy </p>
+              <p className="text-xs leading-5">
                 We build a bespoke marketing strategy that will introduce your
                 home to as many relevant buyers as possible
               </p>
             </div>
           </div>
           <div className="grid justify-items-center">
-            <div className="w-28 mb-4 border border-white px-4 py-2">
+            <div className="w-28 mb-4 border border-white px-4 py-2 font-Opensans tracking-wide inline-block">
               Step One
             </div>
-            <div className="w-6 mb-4 border-l-2 border-white py-6 "></div>
-            <div className="w-48 px-2 leading-10 text-center font-libre-baskerville">
-              <p className="text-base pb-2">Marketing Strategy </p>
-              <p className="text-xs">
+            <div className="w-6 mb-4 border-l-2 border-white py-8 "></div>
+            <div className="w-52 px-2  text-center font-libre-baskerville">
+              <p className="text-base leading-10 pb-2">Marketing Strategy </p>
+              <p className="text-xs leading-5">
                 We build a bespoke marketing strategy that will introduce your
                 home to as many relevant buyers as possible
               </p>
             </div>
           </div>
           <div className="grid justify-items-center">
-            <div className="w-28 mb-4 border border-white px-4 py-2">
+            <div className="w-28 mb-4 border border-white px-4 py-2 font-Opensans tracking-wide inline-block">
               Step One
             </div>
-            <div className="w-6 mb-4 border-l-2 border-white py-6 "></div>
-            <div className="w-48 px-2 leading-10 text-center font-libre-baskerville">
-              <p className="text-base pb-2">Marketing Strategy </p>
-              <p className="text-xs">
+            <div className="w-6 mb-4 border-l-2 border-white py-8 "></div>
+            <div className="w-52 px-2  text-center font-libre-baskerville">
+              <p className="text-base leading-10 pb-2">Marketing Strategy </p>
+              <p className="text-xs leading-5">
                 We build a bespoke marketing strategy that will introduce your
                 home to as many relevant buyers as possible
               </p>
