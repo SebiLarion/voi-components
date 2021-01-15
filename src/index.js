@@ -8,3 +8,5 @@ export { default as ProcessBlockCard } from "./processBlock/ProcessBlockCard";
 export { default as PropertyResultCard } from "./property/PropertyResultCard";
 export { default as TeamCard } from "./team/TeamCard";
 export { default as WhiteContentCard } from "./whitecontent/WhiteContentCard";
+export { default as FooterCard } from "./footer/FooterCard";
+export { default as SearchBoxCard } from "./searchbox/SearchBoxCard";

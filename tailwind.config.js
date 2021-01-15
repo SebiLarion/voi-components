@@ -11,6 +11,7 @@ module.exports = {
         "white-pink": "#F6F6F6",
         "dark-red": "#BD7F80",
         "light-pink": "#F6EFEC",
+        "light-gray": "#C4C4C4",
       },
 
       backgroundImage: (theme) => ({
