@@ -9,7 +9,11 @@ export default {
 };
 
 export const Default = () => (
-  <CollectionCard bgColor="bg-soft-pink" src={image}>
+  <CollectionCard
+    name="Test Collection"
+    className="bg-soft-pink"
+    imageUrl={image}
+  >
     Ibiza’s climate and the stunning countryside offer a complete escape from
     city life which is an increasingly inviting proposition in an ever changing
     world. Within this collection are a selection of incredible homes nestled in

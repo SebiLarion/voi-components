@@ -1,9 +1,10 @@
 import React from "react";
 
-export default function ImageTextBlockCard({ bgImg, children }) {
+export default function ImageTextBlockCard({ imageUrl, children }) {
   return (
     <div
-      className={`max-w-screen-2xl pl-11 pr-12 relative bg-cover bg-center ${bgImg}`}
+      className="bg-cover bg-center bg-fixed"
+      style={{ backgroundImage: `url(${imageUrl})` }}
     >
       <div className="pt-10 pb-11 xl:pt-60 xl:pb-40">
         <div className="flex flex-col items-center">

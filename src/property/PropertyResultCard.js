@@ -2,13 +2,13 @@ import React from "react";
 
 export default function PropertyResultCard({ property }) {
   return (
-    <div className="md:flex absolute">
+    <div className="md:flex">
       <img
         src={property.images[0].asset.fluid.src}
         alt="can arboles"
         className="w-80 h-56"
       />
-      <div className="h-56 bg-light-pink">
+      <div className="h-56 w-full bg-light-pink">
         <h1 className="text-dark-gray text-base uppercase tracking-widest font-normal pt-4 ml-5 mr-12">
           {property.uniqueName}
         </h1>
