@@ -13,11 +13,6 @@ module.exports = {
         "light-pink": "#F6EFEC",
         "light-gray": "#C4C4C4",
       },
-
-      backgroundImage: (theme) => ({
-        "img-text-block": "url('./img/andrew-ridley.jpg')",
-        "img-block": "url('./img/dong-cheng.jpg')",
-      }),
     },
   },
   variants: {

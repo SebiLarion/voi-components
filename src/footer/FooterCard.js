@@ -2,11 +2,9 @@ import React from "react";
 
 import logo from "../img/final logo-transparent.png";
 
-export default function FooterCard({ bgColor }) {
+export default function FooterCard({ className }) {
   return (
-    <div
-      className={`max-w-screen-2xl w-auto h-auto md:h-72 relative ${bgColor}`}
-    >
+    <div className={`w-auto h-auto md:h-72 ${className}`}>
       <div className="flex flex-col md:flex-row ml-20 pt-5  md:ml-28 md:pt-24">
         <div className="w-24 h-24 mb-5">
           <img src={logo} alt="logo" />

@@ -6,4 +6,4 @@ export default {
   title: "FooterCard",
 };
 
-export const Default = () => <FooterCard bgColor="bg-black" />;
+export const Default = () => <FooterCard className="bg-black" />;

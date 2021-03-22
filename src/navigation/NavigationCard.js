@@ -4,9 +4,9 @@ import logo from "../img/final logo.png";
 
 export default function NavigationCard() {
   return (
-    <div className="w-auto md:max-w-screen-2xl mx-16 flex md:border-b md:shadow">
-      <div className="md:my-auto flex flex-col md:flex-row mt-6 md:mt-0">
-        <div className="mb-4 block">
+    <div className="w-auto flex md:border-b md:shadow">
+      <div className="mx-auto my-auto flex flex-col md:flex-row mt-6 md:mt-0">
+        <div className="mb-4">
           <img src={logo} alt="logo" />
         </div>
         <div className="flex flex-col md:flex-row md:ml-96 md:items-center">

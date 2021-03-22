@@ -1,11 +1,12 @@
 import React from "react";
 
-export default function ImageBlockCard({ bgImg }) {
+export default function ImageBlockCard({ imageUrl }) {
   return (
     <div
-      className={`max-w-screen-2xl pl-11 pr-12 relative bg-cover bg-center ${bgImg}`}
+      className="bg-cover bg-center bg-fixed"
+      style={{ backgroundImage: `url(${imageUrl})` }}
     >
-      <div className="h-auto py-96 block relative"></div>
+      <div className="py-96"></div>
       <svg
         className="absolute left-0 fill-current text-white w-1/2 h-96 -mt-52"
         preserveAspectRatio="none"

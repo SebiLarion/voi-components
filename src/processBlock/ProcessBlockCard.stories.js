@@ -6,4 +6,4 @@ export default {
   title: "ProcessBlockCard",
 };
 
-export const Default = () => <ProcessBlockCard bgColor="bg-dusty-pink" />;
+export const Default = () => <ProcessBlockCard className="bg-dusty-pink" />;

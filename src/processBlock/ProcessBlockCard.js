@@ -2,9 +2,9 @@ import React from "react";
 
 import logo from "../img/final logo-transparent.png";
 
-export default function ProcessBlockCard({ bgColor }) {
+export default function ProcessBlockCard({ className }) {
   return (
-    <div className={`max-w-screen-2xl h-auto relative  ${bgColor}`}>
+    <div className={`w-auto h-auto ${className}`}>
       <div className="xl:mx-52 text-white flex flex-col">
         <h3 className="text-center text-lg mt-20 mb-6 fontJosefin">
           OUR SELLING PROCESS
